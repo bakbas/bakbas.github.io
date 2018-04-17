@@ -7,21 +7,23 @@
 	<style>
 		html, body {
 			height: 100%;
+		}
+		body {
+			display: flex;
+    		justify-content: center;
 			margin: 0;
 			font: 12px Arial;
 		}
 		.card {
 		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		    max-width: 300px;
-		    margin: auto;
 		    text-align: center;
+    		align-self: center;
 		}
-
 		.title {
 		    color: grey;
 		    font-size: 18px;
 		}
-
 		.contact {
 		    display: block;
 		    padding: 8px 0;
@@ -30,15 +32,17 @@
 		    cursor: pointer;
 		    width: 100%;
 		    font-size: 18px;
+		    text-decoration: none;
 		}
-
 		.social {
 		    text-decoration: none;
 		    font-size: 22px;
 		    color: black;
 		    margin: 0 4px;
 		}
-
+		p:last-child {
+			margin-bottom: 0;
+		}
 		button:hover, a:hover {
 		    opacity: 0.7;
 		}
